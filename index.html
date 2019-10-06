@@ -16,7 +16,7 @@
 		<section class="bloco-sub-redes">
 			<div class="hosts">
 				<label for="hosts">Número de Hosts:</label>
-				<input type="text" name="hosts" id="hosts">
+				<input type="text" name="hosts" id="hosts" onkeydown="if(event.keyCode == 13) cal()">
 			</div>
 			<button id="calcular" onclick="cal()">Calcular</button>
 			<div id="resultado">
@@ -29,7 +29,7 @@
 			<button id="apagar" onclick="reload()">Reload</button>
 		</section>
 		<footer>
-		<p>a Caio Santos production - Version Lambda</p>
+			<p>a Caio Santos production - Version Lambda</p>
 		</footer>
 	</div>
 	<script src="js/script.js"></script>
