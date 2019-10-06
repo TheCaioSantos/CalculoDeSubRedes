@@ -1,0 +1,110 @@
+body{
+	background-color: #fff;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+h1{
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+	font-family: Courier New, Verdana, sans-serif;
+	color: #000;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+@media (min-width: 200px){
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+@media (min-width: 600px){
+	h1{
+		font-size: 3.5em;
+	}
+}
+
+@media (min-width: 800px){
+	h1{
+		font-size: 4.7em;
+	}
+}
+
+.bloco-sub-redes{
+	margin: 0 auto;
+	border: 1px solid #000;
+	width: 450px;
+	max-width: 100%;
+	background-color: #fff;
+}
+
+.bloco-sub-redes label{
+	color: #000;
+	font-size: 1.5em;
+}
+
+.bloco-sub-redes input{
+	width: 50px;
+	font-size: 1.5em;
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+}
+
+.hosts{
+	text-align: center;
+	padding: 5px;
+}
+
+#calcular{
+	display: block;
+	margin: 5px auto;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+#resultado p{
+	margin-bottom: -20px;
+	font-size: 1.5em;
+	color: #000
+}
+
+#resultado{
+	padding: 5px;
+	width: 165px;
+	margin: auto;
+}
+
+#resultado p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer p{
+	color: #000;
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	font-size: 1em;
+}
+
+#apagar{
+	display: block;
+	margin: 10px auto;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}

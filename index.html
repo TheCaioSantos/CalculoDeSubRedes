@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculo de Sub-Redes</title>
+	<link rel="icon" href="images/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Cálculo de Sub-Redes</h1>
+		</header>
+
+		<section class="bloco-sub-redes">
+			<div class="hosts">
+				<label for="hosts">Número de Hosts:</label>
+				<input type="text" name="nhosts" id="hosts">
+			</div>
+
+			<button id="calcular" onclick="cal()">Calcular</button>
+
+			<div id="resultado">
+				<p id="er">E.R.:</p>
+				<p id="f">F.:</p>
+				<p id="b">B.:</p>
+				<p id="g">G.:</p>
+				<p id="m">M.:</p>
+			</div>
+
+			<button id="apagar" onclick="reload()">Reload</button>
+		</section>
+		<footer>
+		<p>a Caio Santos production - Version Lambda</p>
+		</footer>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
